@@ -24,8 +24,8 @@ you can create your own navmesh and use it .
 ### Screenshots/Illustrations
 
 
-![Screenshot 1](public/Images/1.png)
-![Screenshot 2](public/Images/2.png)
+![Screenshot 1](Client/public/Images/1.png)
+![Screenshot 2](Client/public/Images/2.png)
 
 ## Features
 
