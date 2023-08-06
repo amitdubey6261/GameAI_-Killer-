@@ -59,7 +59,6 @@ class Experience{
             })
 
             this.resources.on('ready' , ()=>{
-                console.log('ready') ;
                 this.env = new Env() ; 
                 this.world = new World() ; 
             })
@@ -67,7 +66,8 @@ class Experience{
     }
 
     resize(){
-        console.log('resize');
+        if(this.camera) this.camera.resize() ;
+        if(this.renderer) this.renderer.resize() ;
     }
 
     update(){
