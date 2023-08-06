@@ -1,4 +1,4 @@
-# DICE[3D]
+# KILLER_AI[3D]
 
 Developing Game AI for my game KILLER [3D] 
 
