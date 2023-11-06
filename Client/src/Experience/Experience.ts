@@ -11,7 +11,10 @@ import Controllers from './Controllers';
 import World from './World/World';
 import Env from './World/Env';
 
-import { GUI } from 'dat.gui'
+import { GUI } from 'dat.gui'; 
+
+import * as Y from 'yjs' ; 
+import { WebsocketProvider } from 'y-websocket'
 
 class Experience{
     static instance : Experience ; 

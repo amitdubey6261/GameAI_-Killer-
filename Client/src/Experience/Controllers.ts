@@ -35,6 +35,14 @@ class Controllers{
         this.orbitControls.enableDamping = true ; 
         this.orbitControls.enableZoom = true ; 
         this.orbitControls.enableRotate = true ; 
+        this.orbitControls.maxAzimuthAngle = Math.PI/2 ; 
+        this.orbitControls.minAzimuthAngle = 0 ; 
+        this.orbitControls.maxZoom = 5 ;
+        this.orbitControls.maxPolarAngle = Math.PI/2 ; 
+        this.orbitControls.minDistance = 10 ; 
+        this.orbitControls.maxDistance = 200 ; 
+
+
     }
 
     update(){
